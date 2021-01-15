@@ -1,0 +1,16 @@
+name: FranciscoGender
+version: ${project.version}
+main: com.github.franciscovenned.franciscogender.Gender
+api-version: 1.16
+authors: [ FranciscoVenned ]
+description: Plugin for Genders
+softdepend:
+  - PlaceholderAPI
+commands:
+  gender:
+    description: Genders Players
+    usage: Player
+    default: true
+    aliases:
+      - sexo
+      - estado
